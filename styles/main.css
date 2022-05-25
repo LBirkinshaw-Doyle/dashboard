@@ -49,3 +49,8 @@ header{
     justify-items: center;
     align-items: center;
 }
+/*Main Content*/
+#main_content{
+    max-height: 80vh;
+    overflow: scroll;
+}
