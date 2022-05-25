@@ -15,8 +15,9 @@ body{
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
 }
-/* Navbar layout*/
+/* Navbar styling*/
 nav{
+    box-sizing: border-box;
     grid-area: 1 / 1 / -1 / -2;
     height: 100vh;
     padding: 20px;
@@ -29,3 +30,4 @@ nav{
     grid-template-columns: 1fr 2fr;
     gap: 10px;
 }
+/*header styling*/
