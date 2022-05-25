@@ -53,4 +53,23 @@ header{
 #main_content{
     max-height: 80vh;
     overflow: scroll;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+#project_area{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
+    gap: 20px;
+}
+#header{
+    grid-area: 1 / 1 / 2 / 3;
+}
+#sidebar{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
 }
