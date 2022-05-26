@@ -10,6 +10,8 @@ body{
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
+
+    font-family: 'Lato', sans-serif;
 }
 /* Navbar styling*/
 nav{
@@ -43,6 +45,10 @@ header{
 #top_line{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+}
+#top_line div{
+    margin: 10px 5px;
 }
 #search_container{
     flex-grow: 3;
