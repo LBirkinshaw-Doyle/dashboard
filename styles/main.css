@@ -46,6 +46,17 @@ header{
 }
 #search_container{
     flex-grow: 3;
+    display: grid;
+    grid-template-columns: fit-content(30px) 1fr;
+    align-items: center;
+}
+#search_container input{
+    margin-right: 50px;
+    margin-left: 20px;
+
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+
 }
 #bottom_line{
     display: grid;
