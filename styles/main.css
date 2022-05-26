@@ -21,6 +21,8 @@ nav{
 
     display: grid;
     gap: 10px;
+
+    font-family: 'Satisfy', cursive;
 }
 #nav_item{
     display: grid;
