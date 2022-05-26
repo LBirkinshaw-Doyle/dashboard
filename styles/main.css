@@ -29,6 +29,11 @@ nav{
     grid-template-columns: 1fr 2fr;
     gap: 10px;
 }
+#nav_item a{
+    text-decoration: none;
+    color: black;
+    line-height: 24px;
+}
 /*header styling*/
 header{
     background-color: var(--colorbackground);
