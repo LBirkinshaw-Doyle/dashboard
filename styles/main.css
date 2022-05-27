@@ -109,6 +109,14 @@ header{
     grid-area: name;
     align-self: start;
 }
+.header_button{
+    min-width: 100px;
+    background-color: var(--colordark);
+    color: var(--colorbackground);
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+}
 /*Main Content*/
 #main_content{
     background-color: var(--colorpale);
