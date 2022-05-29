@@ -8,10 +8,14 @@
 
 body{
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr 5fr;
 
     font-family: 'Lato', sans-serif;
+}
+
+h3{
+    font-size: medium;
 }
 /* Navbar styling*/
 nav{
@@ -40,7 +44,7 @@ nav{
 header{
     background-color: var(--colorbackground);
     display: grid;
-    padding: 20px;
+    padding: 10px;
 }
 #top_line{
     display: flex;
@@ -123,9 +127,9 @@ header{
     max-height: 80vh;
     overflow: scroll;
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 2.5fr 1fr;
     gap: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 #project_area{
     display: grid;
@@ -153,4 +157,33 @@ header{
 }
 .icons{
     justify-self: right;
+}
+/*Sidebar*/
+.sidebox{
+    width: 100%;
+}
+.side_card{
+    background-color: var(--colorbackground);
+    padding: 20px;
+    border-radius: 5px;
+}
+#sideheader h2{
+    margin: 0;
+}
+.annoucement p{
+    font-size: small;
+}
+.trending_profile{
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 70px 1fr;
+    margin: 10px 10px;
+    gap: 5px;
+}
+.trending_profile .profile_img{
+    height: 50px;
+}
+#profile_tag *{
+    margin: 0;
+    font-size: small;
 }
