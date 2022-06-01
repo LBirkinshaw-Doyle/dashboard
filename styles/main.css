@@ -172,14 +172,29 @@ header{
 /*Sidebar*/
 .sidebox{
     width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 .side_card{
+    flex-grow: 1;
     background-color: var(--colorbackground);
     padding: 20px;
     border-radius: 5px;
+    display: grid;
+    gap: 10px;
+}
+#announcements{
+    grid-template-rows: 1fr min-content 1fr min-content 1fr;
+}
+#trending{
+    grid-template-rows: 1fr min-content 1fr min-content 1fr min-content 1fr;
 }
 #sideheader h2{
-    margin: 0;
+    margin: 10px 0 20px 0;
+}
+.divider{
+    border: 1px solid rgba(128, 128, 128, 0.6);
 }
 .annoucement p{
     font-size: small;
@@ -188,13 +203,22 @@ header{
     display: grid;
     justify-content: start;
     grid-template-columns: 70px 1fr;
-    margin: 10px 10px;
     gap: 5px;
 }
 .trending_profile .profile_img{
     height: 50px;
+    align-self: center;
 }
-#profile_tag *{
-    margin: 0;
+#profile_tag{
+    display: grid;
+    grid-template-rows: auto;
+}
+#profile_tag h3{
+    font-size: x-large;
+    font-weight: bolder;
+    align-self: end;
+}
+#profile_tag p{
     font-size: small;
+
 }
